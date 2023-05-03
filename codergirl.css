@@ -1,0 +1,102 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Karla', sans-serif;
+}
+
+body{
+    background-image: url(back.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/* Portfolio */
+
+.lio{
+    color: rgb(243, 47, 25);
+}
+
+.portfolio{
+    font-size: 40px;
+    letter-spacing: 2px;
+} 
+
+ul a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+
+/* Home About Services Contact */
+
+.links ul{
+    font-size: 17px; 
+    margin-top: 2.5%; 
+    width: 400px;
+    display: flex;
+    justify-content: space-evenly;  
+}  
+
+.links a:hover{
+    color: rgb(243, 47, 25);
+}
+
+/* Login Register */
+
+.login ul{
+    font-size: 19px;
+    margin-top: 3%;
+    width:230px ;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+/* top setup */
+
+.top{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3%;
+    margin-left: 1.5%;
+}
+
+/* content */
+
+.heading{
+    color: whitesmoke;
+    font-size: 65px;
+    margin-bottom: 13px;
+}
+
+.para{
+    color: whitesmoke;
+    line-height: 25px;
+    margin-bottom: 10px;
+}
+
+.Hire a{
+    text-decoration: none;
+    color:black;
+    border: 1px solid white;
+    text-align: center;
+    padding: 7px 20px 7px 20px;
+    background-color: whitesmoke;
+    border-radius: 5px;   
+}
+
+.Hire a:hover{
+    color: whitesmoke;
+    background-color: black;
+}
+
+
+.content{
+    margin-top: 9%;
+    margin-left: 8%;
+}
+
+
+
